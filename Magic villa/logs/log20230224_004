@@ -1,0 +1,79 @@
+2023-02-24 01:54:12.977 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-24 01:54:13.056 +05:30 [DBG] Hosting starting
+2023-02-24 01:54:13.095 +05:30 [DBG] Loaded hosting startup assembly Magic villa
+2023-02-24 01:54:13.095 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-24 01:54:13.095 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-24 01:54:13.095 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-24 01:54:13.095 +05:30 [INF] Hosting environment: Development
+2023-02-24 01:54:13.095 +05:30 [INF] Content root path: C:\Users\alvin\Desktop\webapisolution\Magic villa\
+2023-02-24 01:54:13.095 +05:30 [DBG] Hosting started
+2023-02-24 01:54:13.116 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-02-24 01:54:13.141 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-24 01:54:13.162 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-24 01:54:13.163 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 01:54:13.246 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-02-24 01:54:13.349 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-02-24 01:54:13.351 +05:30 [DBG] Connection ID "18302628895834243151" disconnecting.
+2023-02-24 01:54:13.352 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 239.4679ms
+2023-02-24 01:54:13.393 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-02-24 01:54:13.393 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-02-24 01:54:13.397 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 3.1247ms
+2023-02-24 01:54:13.490 +05:30 [DBG] Connection ID "18230571297501347936" disconnecting.
+2023-02-24 01:54:13.532 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 139.0002ms
+2023-02-24 01:54:13.639 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-02-24 01:54:13.640 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-24 01:54:13.640 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 01:54:13.787 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.0016ms
+2023-02-24 01:58:30.023 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-24 01:58:30.916 +05:30 [INF] Entity Framework Core 6.0.14 initialized 'MagicVillaDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-02-24 01:58:31.422 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.423 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.423 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.423 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.423 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.510 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.510 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.510 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.510 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.510 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.572 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.591 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.640 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.641 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.641 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.641 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.641 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.641 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.641 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.641 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.677 +05:30 [DBG] DetectChanges starting for 'MagicVillaDbContext'.
+2023-02-24 01:58:31.696 +05:30 [DBG] DetectChanges completed for 'MagicVillaDbContext'.
+2023-02-24 01:58:31.707 +05:30 [DBG] DetectChanges starting for 'MagicVillaDbContext'.
+2023-02-24 01:58:31.708 +05:30 [DBG] DetectChanges completed for 'MagicVillaDbContext'.
+2023-02-24 01:58:31.810 +05:30 [DBG] Executing 5 update commands as a batch.
+2023-02-24 01:58:31.858 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.858 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.858 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.858 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.858 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.858 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.858 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.858 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.858 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.858 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.859 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.859 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.859 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.859 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.859 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.859 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.859 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.859 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.859 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.859 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 01:58:31.859 +05:30 [DBG] DetectChanges starting for 'MagicVillaDbContext'.
+2023-02-24 01:58:31.860 +05:30 [DBG] DetectChanges completed for 'MagicVillaDbContext'.
+2023-02-24 01:58:31.860 +05:30 [DBG] DetectChanges starting for 'MagicVillaDbContext'.
+2023-02-24 01:58:31.860 +05:30 [DBG] DetectChanges completed for 'MagicVillaDbContext'.
+2023-02-24 01:58:31.861 +05:30 [DBG] Executing 5 update commands as a batch.
+2023-02-24 01:58:32.024 +05:30 [DBG] 'MagicVillaDbContext' disposed.

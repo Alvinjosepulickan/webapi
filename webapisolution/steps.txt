@@ -1,0 +1,54 @@
+create models and DTO's
+create  api's  in VillaAPIController
+
+
+
+crud operation
+	
+	
+        [ProducesResponseType(200,Type =typeof(Villa))]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(500)]
+
+
+
+        ModelState.AddModelError("Key","Error");
+        return BadRequest(ModelState);
+
+
+
+
+
+Patch
+    nuget packages:
+        Microsoft.AspNetCore.JsonPatch
+        Microsoft.AspNetCore.Mvc.NewtonsoftJson
+
+    builder.Services.AddController.AddNewtonsoftJson();
+
+
+    [HttpPatch]
+    public IActionResult PatchVilla(int id, [FromBody]JsonPatchDocument<VillaDTO> villaDto)
+    {
+        if(villaDto==null || id==0)
+        {
+            return BadRequest();
+        }
+        var villa = StaticClass.villa.Where(x => x.Id == id).FirstOrDefault();
+        villaDto.ApplyTo(villa,ModelState);
+        if(ModelState.IsValid)
+        {
+            return BadRequest(); 
+        }
+        return Ok();
+    }
+
+
+
+
+content negotiation
+    builder.Services.AddControllers(
+    option => option.ReturnHttpNotAcceptable = true
+    )
+    .AddNewtonsoftJson()
+    .AddXmlDataContractSerializerFormatters();

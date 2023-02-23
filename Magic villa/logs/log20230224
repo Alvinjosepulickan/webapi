@@ -1,0 +1,132 @@
+2023-02-24 00:11:10.039 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-24 00:11:10.154 +05:30 [DBG] Hosting starting
+2023-02-24 00:11:10.220 +05:30 [DBG] Loaded hosting startup assembly Magic villa
+2023-02-24 00:11:10.220 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-24 00:11:10.220 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-24 00:11:10.220 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-24 00:11:10.220 +05:30 [INF] Hosting environment: Development
+2023-02-24 00:11:10.220 +05:30 [INF] Content root path: C:\Users\alvin\Desktop\webapisolution\Magic villa\
+2023-02-24 00:11:10.220 +05:30 [DBG] Hosting started
+2023-02-24 00:11:10.250 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-02-24 00:11:10.285 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-24 00:11:10.313 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-24 00:11:10.314 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 00:11:10.443 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-02-24 00:11:10.724 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-02-24 00:11:10.727 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 482.3766ms
+2023-02-24 00:11:10.728 +05:30 [DBG] Connection ID "18374686489872171017" disconnecting.
+2023-02-24 00:11:10.784 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-02-24 00:11:10.787 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 3.7583ms
+2023-02-24 00:11:10.787 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-02-24 00:11:10.861 +05:30 [DBG] Connection ID "18374686494167138346" disconnecting.
+2023-02-24 00:11:10.959 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 171.8353ms
+2023-02-24 00:11:11.334 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-02-24 00:11:11.336 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-24 00:11:11.336 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 00:11:11.681 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 346.6630ms
+2023-02-24 00:49:01.074 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-24 00:49:01.193 +05:30 [DBG] Hosting starting
+2023-02-24 00:49:01.356 +05:30 [DBG] Loaded hosting startup assembly Magic villa
+2023-02-24 00:49:01.356 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-24 00:49:01.356 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-24 00:49:01.356 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-24 00:49:01.356 +05:30 [INF] Hosting environment: Development
+2023-02-24 00:49:01.356 +05:30 [INF] Content root path: C:\Users\alvin\Desktop\webapisolution\Magic villa\
+2023-02-24 00:49:01.356 +05:30 [DBG] Hosting started
+2023-02-24 00:49:01.393 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-02-24 00:49:01.431 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-24 00:49:01.540 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-24 00:49:01.540 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 00:49:01.707 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-02-24 00:49:02.110 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-02-24 00:49:02.114 +05:30 [DBG] Connection ID "18230571301796315167" disconnecting.
+2023-02-24 00:49:02.114 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 725.1957ms
+2023-02-24 00:49:02.204 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-02-24 00:49:02.206 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-02-24 00:49:02.210 +05:30 [DBG] Connection ID "18086456109425491991" disconnecting.
+2023-02-24 00:49:02.211 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 3.1959ms
+2023-02-24 00:49:02.279 +05:30 [DBG] Connection ID "18230571297501347892" disconnecting.
+2023-02-24 00:49:02.280 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 76.0652ms
+2023-02-24 00:49:02.380 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-02-24 00:49:02.389 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-24 00:49:02.389 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 00:49:02.739 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 359.5249ms
+2023-02-24 00:57:56.919 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-24 00:57:56.980 +05:30 [DBG] Hosting starting
+2023-02-24 00:57:57.021 +05:30 [DBG] Loaded hosting startup assembly Magic villa
+2023-02-24 00:57:57.021 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-24 00:57:57.021 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-24 00:57:57.021 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-24 00:57:57.021 +05:30 [INF] Hosting environment: Development
+2023-02-24 00:57:57.022 +05:30 [INF] Content root path: C:\Users\alvin\Desktop\webapisolution\Magic villa\
+2023-02-24 00:57:57.022 +05:30 [DBG] Hosting started
+2023-02-24 00:57:57.043 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-02-24 00:57:57.066 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-24 00:57:57.087 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-24 00:57:57.087 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 00:57:57.171 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-02-24 00:57:57.286 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-02-24 00:57:57.289 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 249.2542ms
+2023-02-24 00:57:57.289 +05:30 [DBG] Connection ID "18086456105130524679" disconnecting.
+2023-02-24 00:57:57.293 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-02-24 00:57:57.294 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-02-24 00:57:57.297 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.0885ms
+2023-02-24 00:57:57.333 +05:30 [DBG] Connection ID "18158513699168452623" disconnecting.
+2023-02-24 00:57:57.335 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.9590ms
+2023-02-24 00:57:57.393 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-02-24 00:57:57.394 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-24 00:57:57.394 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 00:57:57.538 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 144.5385ms
+2023-02-24 00:58:27.773 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-24 00:58:28.597 +05:30 [INF] Entity Framework Core 6.0.14 initialized 'MagicVillaDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-02-24 00:58:28.789 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.790 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.790 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.791 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.791 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.829 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.829 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.829 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.829 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.829 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.857 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.866 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.883 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.884 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.884 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.884 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.884 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.884 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.884 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.884 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.898 +05:30 [DBG] DetectChanges starting for 'MagicVillaDbContext'.
+2023-02-24 00:58:28.906 +05:30 [DBG] DetectChanges completed for 'MagicVillaDbContext'.
+2023-02-24 00:58:28.907 +05:30 [DBG] DetectChanges starting for 'MagicVillaDbContext'.
+2023-02-24 00:58:28.907 +05:30 [DBG] DetectChanges completed for 'MagicVillaDbContext'.
+2023-02-24 00:58:28.951 +05:30 [DBG] Executing 5 update commands as a batch.
+2023-02-24 00:58:28.958 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.958 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.958 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.958 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.958 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.958 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.958 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.958 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.958 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.958 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.958 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.958 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.959 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.959 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.959 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.959 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.959 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.959 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.959 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.959 +05:30 [DBG] An entity of type 'Villa' tracked by 'MagicVillaDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 00:58:28.959 +05:30 [DBG] DetectChanges starting for 'MagicVillaDbContext'.
+2023-02-24 00:58:28.959 +05:30 [DBG] DetectChanges completed for 'MagicVillaDbContext'.
+2023-02-24 00:58:28.959 +05:30 [DBG] DetectChanges starting for 'MagicVillaDbContext'.
+2023-02-24 00:58:28.959 +05:30 [DBG] DetectChanges completed for 'MagicVillaDbContext'.
+2023-02-24 00:58:28.960 +05:30 [DBG] Executing 5 update commands as a batch.
+2023-02-24 00:58:29.058 +05:30 [DBG] 'MagicVillaDbContext' disposed.

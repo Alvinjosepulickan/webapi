@@ -1,0 +1,20 @@
+create business and dataaccess
+create repository folder 
+	create IMagicVillaRepository and Repository
+
+inject repository in program.cs
+	
+
+
+code cleanup
+	generic repository- common repo functions
+	crete IRepository
+			interface IRepository<T> where T: class
+	create Repository
+			class Repository<T>:IRepository<T> where T : class
+
+
+inherit Repository in MagicVillaRepository
+	interface IMagicVillaRepository:IRepository<Villa>
+	class MagicVillaRepository:Repository<Villa>,IMagicVillaRepository
+	

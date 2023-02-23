@@ -1,0 +1,20 @@
+create dto for create and update
+	VillaCreateDTO, VillaUpdateDTO
+
+nuget packages
+	AutoMapper
+	AutoMapper.Extensions.Microsoft.DependencyInjection
+
+
+create MappingConfig
+	
+inject in program.cs
+	builder.Services.AddAutoMapper(typeof(MappingConfig));
+
+
+using automapper
+	
+	private readonly IMapper _mapper;
+
+
+	_mapper.Map<VillaDTO>(villas)

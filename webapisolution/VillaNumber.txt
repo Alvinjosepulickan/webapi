@@ -1,0 +1,25 @@
+create model for villaNumber
+create dto forr villanumber
+
+add VillaNumber  dbset
+
+create IVillaNumberRepository   and VillaNumberRepository
+
+inject dependenccy
+
+
+
+
+add foreeign key reference
+	1-n from villa to villanumber
+
+
+
+
+	add  in VillanUmber model
+	[ForeignKey("Villa")]
+    public int VillaId { get; set; }
+    public Villa Villa { get; set; }
+
+	add in DTO's
+	public int VillaId { get; set; }

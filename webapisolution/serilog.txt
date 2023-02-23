@@ -1,0 +1,12 @@
+nuget package
+	serilog.AspNetCore
+	serilog.sinks.file
+
+
+
+in program.cs above builder.AddController()
+	
+
+	Log.Logger = new LoggerConfiguration().MinimumLevel.Debug().
+		WriteTo.File("logs/log", rollingInterval: RollingInterval.Day).CreateLogger();
+	builder.Host.UseSerilog();

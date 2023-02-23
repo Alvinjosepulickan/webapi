@@ -1,0 +1,170 @@
+2023-02-24 00:58:28.664 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-24 00:58:28.741 +05:30 [DBG] Hosting starting
+2023-02-24 00:58:28.782 +05:30 [DBG] Loaded hosting startup assembly Magic villa
+2023-02-24 00:58:28.782 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-24 00:58:28.782 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-24 00:58:28.782 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-24 00:58:28.782 +05:30 [INF] Hosting environment: Development
+2023-02-24 00:58:28.782 +05:30 [INF] Content root path: C:\Users\alvin\Desktop\webapisolution\Magic villa\
+2023-02-24 00:58:28.783 +05:30 [DBG] Hosting started
+2023-02-24 00:58:28.802 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-02-24 00:58:28.829 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-24 00:58:28.850 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-24 00:58:28.850 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 00:58:28.957 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-02-24 00:58:29.104 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-02-24 00:58:29.108 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 307.9389ms
+2023-02-24 00:58:29.206 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-02-24 00:58:29.217 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 10.4341ms
+2023-02-24 00:58:29.221 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-02-24 00:58:29.274 +05:30 [DBG] Connection ID "18086456109425491997" disconnecting.
+2023-02-24 00:58:29.281 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 60.2169ms
+2023-02-24 00:58:29.660 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-02-24 00:58:29.669 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-24 00:58:29.669 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 00:58:29.885 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 224.9060ms
+2023-02-24 00:58:59.580 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-24 00:59:00.408 +05:30 [INF] Entity Framework Core 6.0.14 initialized 'MagicVillaDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-02-24 00:59:00.476 +05:30 [DBG] Migrating using database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:00.483 +05:30 [DBG] Opening connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:00.834 +05:30 [DBG] Opened connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:00.845 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-24 00:59:00.855 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (6ms).
+2023-02-24 00:59:00.867 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-24 00:59:00.976 +05:30 [INF] Executed DbCommand (109ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-24 00:59:00.978 +05:30 [DBG] Closing connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:00.982 +05:30 [DBG] Closed connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:00.990 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-02-24 00:59:00.990 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-02-24 00:59:00.990 +05:30 [DBG] Opening connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:00.991 +05:30 [DBG] Opened connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:00.992 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-24 00:59:01.832 +05:30 [INF] Executed DbCommand (840ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-24 00:59:01.832 +05:30 [DBG] Closing connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:01.833 +05:30 [DBG] Closed connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:01.834 +05:30 [DBG] Opening connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:01.834 +05:30 [DBG] Opened connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:01.834 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-24 00:59:01.834 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-24 00:59:01.834 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-24 00:59:01.838 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-24 00:59:01.839 +05:30 [DBG] Closing connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:01.839 +05:30 [DBG] Closed connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:01.839 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-02-24 00:59:01.839 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-02-24 00:59:01.839 +05:30 [DBG] Opening connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:01.839 +05:30 [DBG] Opened connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:01.839 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-24 00:59:01.841 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-24 00:59:01.841 +05:30 [DBG] Closing connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:01.841 +05:30 [DBG] Closed connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:01.864 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-24 00:59:01.864 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-02-24 00:59:01.864 +05:30 [DBG] Opening connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:01.864 +05:30 [DBG] Opened connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:01.864 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-24 00:59:01.965 +05:30 [INF] Executed DbCommand (101ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-24 00:59:01.968 +05:30 [DBG] A data reader was disposed.
+2023-02-24 00:59:01.968 +05:30 [DBG] Closing connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:01.968 +05:30 [DBG] Closed connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:01.982 +05:30 [INF] Applying migration '20230223192828_VillaNumbertableadded'.
+2023-02-24 00:59:02.045 +05:30 [DBG] Opening connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:02.045 +05:30 [DBG] Opened connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:02.046 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-02-24 00:59:02.054 +05:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-02-24 00:59:02.055 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-24 00:59:02.055 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-24 00:59:02.055 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [VillaNumbers] (
+    [VillNo] int NOT NULL,
+    [SpecialDetails] nvarchar(max) NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [ModifiedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_VillaNumbers] PRIMARY KEY ([VillNo])
+);
+2023-02-24 00:59:02.652 +05:30 [INF] Executed DbCommand (596ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [VillaNumbers] (
+    [VillNo] int NOT NULL,
+    [SpecialDetails] nvarchar(max) NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [ModifiedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_VillaNumbers] PRIMARY KEY ([VillNo])
+);
+2023-02-24 00:59:02.652 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-24 00:59:02.652 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-24 00:59:02.652 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-02-24T00:58:28.6175545+05:30'
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-02-24 00:59:02.874 +05:30 [INF] Executed DbCommand (222ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-02-24T00:58:28.6175545+05:30'
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-02-24 00:59:02.874 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-24 00:59:02.874 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-24 00:59:02.875 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-02-24T00:58:28.6175559+05:30'
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2023-02-24 00:59:02.876 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-02-24T00:58:28.6175559+05:30'
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2023-02-24 00:59:02.876 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-24 00:59:02.876 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-24 00:59:02.876 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-02-24T00:58:28.6175561+05:30'
+WHERE [Id] = 3;
+SELECT @@ROWCOUNT;
+2023-02-24 00:59:02.877 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-02-24T00:58:28.6175561+05:30'
+WHERE [Id] = 3;
+SELECT @@ROWCOUNT;
+2023-02-24 00:59:02.877 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-24 00:59:02.877 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-24 00:59:02.877 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-02-24T00:58:28.6175562+05:30'
+WHERE [Id] = 4;
+SELECT @@ROWCOUNT;
+2023-02-24 00:59:02.877 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-02-24T00:58:28.6175562+05:30'
+WHERE [Id] = 4;
+SELECT @@ROWCOUNT;
+2023-02-24 00:59:02.878 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-24 00:59:02.878 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-24 00:59:02.878 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-02-24T00:58:28.6175563+05:30'
+WHERE [Id] = 5;
+SELECT @@ROWCOUNT;
+2023-02-24 00:59:02.879 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-02-24T00:58:28.6175563+05:30'
+WHERE [Id] = 5;
+SELECT @@ROWCOUNT;
+2023-02-24 00:59:02.879 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-24 00:59:02.879 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-24 00:59:02.879 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230223192828_VillaNumbertableadded', N'6.0.14');
+2023-02-24 00:59:03.336 +05:30 [INF] Executed DbCommand (458ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230223192828_VillaNumbertableadded', N'6.0.14');
+2023-02-24 00:59:03.340 +05:30 [DBG] Committing transaction.
+2023-02-24 00:59:03.346 +05:30 [DBG] Committed transaction.
+2023-02-24 00:59:03.350 +05:30 [DBG] Disposing transaction.
+2023-02-24 00:59:03.350 +05:30 [DBG] Closing connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:03.350 +05:30 [DBG] Closed connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 00:59:03.354 +05:30 [DBG] 'MagicVillaDbContext' disposed.

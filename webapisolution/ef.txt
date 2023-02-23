@@ -1,0 +1,44 @@
+connection string 
+	"ConnectionStrings": {
+		"MagicVilla": "Server=localhost\\SQLEXPRESS01;Database=MagicVilla;Trusted_Connection=True;"
+	  }
+
+
+
+nuget packages
+	Microsoft.EntityFrameworkCore
+	Microsoft.EntityFrameworkCore.SqlServer
+	Microsoft.EntityFrameworkCore.Tools
+
+
+
+
+create  dbcontext
+	public MagicVillaDbContext(DbContextOptions<MagicVillaDbContext> options):base(options)
+        {
+
+        }
+
+
+
+
+
+inject in program.cs
+	builder.Services.AddDbContext<MagicVillaDbContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("MagicVilla")));
+
+
+
+
+seed table with data
+	OnModelCreating method
+
+
+
+use dbcontext in controller
+	private readonly MagicVillaDbContext _context;
+
+
+
+
+AsNoTracking
+	_context.Villas.AsNoTracking().FirstOrDefault(x=>x.Id==id);
