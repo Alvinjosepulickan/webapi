@@ -6,8 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Magic_villa.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
+    [ApiVersionNeutral]
     public class UserController : ControllerBase
     {
         private readonly ILogger<VillaAPIController> _logger;

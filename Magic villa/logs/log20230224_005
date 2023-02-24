@@ -2623,3 +2623,573 @@ FROM [Villas] AS [v]
 2023-02-24 05:13:38.217 +05:30 [DBG] 'MagicVillaDbContext' disposed.
 2023-02-24 05:13:38.217 +05:30 [DBG] Connection ID "17870283331606675476" disconnecting.
 2023-02-24 05:13:38.217 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/VillaAPI - - - 200 2281 application/json;+charset=utf-8 5411.4892ms
+2023-02-24 06:59:18.145 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-24 06:59:18.268 +05:30 [DBG] Hosting starting
+2023-02-24 06:59:18.290 +05:30 [INF] User profile is available. Using 'C:\Users\alvin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-24 06:59:18.294 +05:30 [DBG] Reading data from file 'C:\Users\alvin\AppData\Local\ASP.NET\DataProtection-Keys\key-fae00347-2a05-4fa7-aea7-e0bc5e239186.xml'.
+2023-02-24 06:59:18.323 +05:30 [DBG] Found key {fae00347-2a05-4fa7-aea7-e0bc5e239186}.
+2023-02-24 06:59:18.334 +05:30 [DBG] Considering key {fae00347-2a05-4fa7-aea7-e0bc5e239186} with expiration date 2023-05-24 23:17:01Z as default key.
+2023-02-24 06:59:18.336 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-24 06:59:18.338 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-02-24 06:59:18.340 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-24 06:59:18.343 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-02-24 06:59:18.344 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-02-24 06:59:18.348 +05:30 [DBG] Using key {fae00347-2a05-4fa7-aea7-e0bc5e239186} as the default key.
+2023-02-24 06:59:18.349 +05:30 [DBG] Key ring with default key {fae00347-2a05-4fa7-aea7-e0bc5e239186} was loaded during application startup.
+2023-02-24 06:59:18.411 +05:30 [DBG] Loaded hosting startup assembly Magic villa
+2023-02-24 06:59:18.411 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-24 06:59:18.411 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-24 06:59:18.411 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-24 06:59:18.411 +05:30 [INF] Hosting environment: Development
+2023-02-24 06:59:18.411 +05:30 [INF] Content root path: C:\Users\alvin\Desktop\webapisolution\Magic villa\
+2023-02-24 06:59:18.411 +05:30 [DBG] Hosting started
+2023-02-24 06:59:18.443 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-02-24 06:59:18.481 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-24 06:59:18.507 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-24 06:59:18.507 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 06:59:18.603 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-02-24 06:59:19.285 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-02-24 06:59:19.291 +05:30 [DBG] Connection ID "18230571301796315203" disconnecting.
+2023-02-24 06:59:19.293 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 851.2595ms
+2023-02-24 06:59:19.304 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-02-24 06:59:19.306 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-02-24 06:59:19.310 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.9129ms
+2023-02-24 06:59:19.310 +05:30 [DBG] Connection ID "18230571301796315205" disconnecting.
+2023-02-24 06:59:19.380 +05:30 [DBG] Connection ID "18158513712053354547" disconnecting.
+2023-02-24 06:59:19.394 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 87.9888ms
+2023-02-24 06:59:19.486 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-02-24 06:59:19.487 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-24 06:59:19.487 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 06:59:19.567 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/v{version}/VillaAPI" for actions - Magic_villa.Controllers.VillaAPIController.GetVillas (Magic villa),Magic_villa.Controllers.VillaAPIController.GetVilla (Magic villa). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-02-24 06:59:19.618 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 131.7277ms
+2023-02-24 07:02:34.540 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-24 07:02:34.645 +05:30 [DBG] Hosting starting
+2023-02-24 07:02:34.658 +05:30 [INF] User profile is available. Using 'C:\Users\alvin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-24 07:02:34.661 +05:30 [DBG] Reading data from file 'C:\Users\alvin\AppData\Local\ASP.NET\DataProtection-Keys\key-fae00347-2a05-4fa7-aea7-e0bc5e239186.xml'.
+2023-02-24 07:02:34.672 +05:30 [DBG] Found key {fae00347-2a05-4fa7-aea7-e0bc5e239186}.
+2023-02-24 07:02:34.682 +05:30 [DBG] Considering key {fae00347-2a05-4fa7-aea7-e0bc5e239186} with expiration date 2023-05-24 23:17:01Z as default key.
+2023-02-24 07:02:34.683 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-24 07:02:34.686 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-02-24 07:02:34.687 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-24 07:02:34.691 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-02-24 07:02:34.693 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-02-24 07:02:34.696 +05:30 [DBG] Using key {fae00347-2a05-4fa7-aea7-e0bc5e239186} as the default key.
+2023-02-24 07:02:34.696 +05:30 [DBG] Key ring with default key {fae00347-2a05-4fa7-aea7-e0bc5e239186} was loaded during application startup.
+2023-02-24 07:02:34.733 +05:30 [DBG] Loaded hosting startup assembly Magic villa
+2023-02-24 07:02:34.733 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-24 07:02:34.733 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-24 07:02:34.733 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-24 07:02:34.733 +05:30 [INF] Hosting environment: Development
+2023-02-24 07:02:34.733 +05:30 [INF] Content root path: C:\Users\alvin\Desktop\webapisolution\Magic villa\
+2023-02-24 07:02:34.733 +05:30 [DBG] Hosting started
+2023-02-24 07:02:34.753 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-02-24 07:02:34.776 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-24 07:02:34.804 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-24 07:02:34.804 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 07:02:34.886 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-02-24 07:02:35.094 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-02-24 07:02:35.095 +05:30 [DBG] Connection ID "18374686481282236513" disconnecting.
+2023-02-24 07:02:35.100 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 348.8509ms
+2023-02-24 07:02:35.113 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-02-24 07:02:35.140 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-02-24 07:02:35.144 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.4824ms
+2023-02-24 07:02:35.209 +05:30 [DBG] Connection ID "18158513699168452694" disconnecting.
+2023-02-24 07:02:35.212 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 99.9176ms
+2023-02-24 07:02:35.279 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-02-24 07:02:35.281 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-24 07:02:35.281 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 07:02:35.453 +05:30 [DBG] Connection ID "18302628891539275798" disconnecting.
+2023-02-24 07:02:35.453 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 173.9551ms
+2023-02-24 07:03:07.029 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/v1/VillaAPI - -
+2023-02-24 07:03:07.038 +05:30 [DBG] 2 candidate(s) found for the request path '/api/v1/VillaAPI'
+2023-02-24 07:03:07.046 +05:30 [DBG] Endpoint 'Magic_villa.Controllers.VillaAPIController.GetVillas (Magic villa)' with route pattern 'api/v{version:apiVersion}/VillaAPI' is valid for the request path '/api/v1/VillaAPI'
+2023-02-24 07:03:07.046 +05:30 [DBG] Endpoint 'Magic_villa.Controllers.VillaAPIController.GetVilla (Magic villa)' with route pattern 'api/v{version:apiVersion}/VillaAPI' is valid for the request path '/api/v1/VillaAPI'
+2023-02-24 07:03:07.051 +05:30 [DBG] Request matched endpoint 'Magic_villa.Controllers.VillaAPIController.GetVillas (Magic villa)'
+2023-02-24 07:03:07.053 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-24 07:03:07.419 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-02-24 07:03:07.424 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2023-02-24 07:03:07.427 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-02-24 07:03:07.428 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/v1/VillaAPI - - - 401 - - 399.0084ms
+2023-02-24 07:03:07.428 +05:30 [DBG] Connection ID "18230571301796315211" disconnecting.
+2023-02-24 07:03:24.160 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44356/api/User/login?api-version=1 application/json-patch+json 50
+2023-02-24 07:03:24.161 +05:30 [DBG] 1 candidate(s) found for the request path '/api/User/login'
+2023-02-24 07:03:24.161 +05:30 [DBG] Endpoint 'Magic_villa.Controllers.UserController.Login (Magic villa)' with route pattern 'api/User/login' is valid for the request path '/api/User/login'
+2023-02-24 07:03:24.177 +05:30 [DBG] Request matched endpoint 'Magic_villa.Controllers.UserController.Login (Magic villa)'
+2023-02-24 07:03:24.177 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-24 07:03:24.178 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-02-24 07:03:24.179 +05:30 [INF] Executing endpoint 'Magic_villa.Controllers.UserController.Login (Magic villa)'
+2023-02-24 07:03:24.219 +05:30 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Magic_villa.DTOs.LoginRequestDTO) on controller Magic_villa.Controllers.UserController (Magic villa).
+2023-02-24 07:03:24.221 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-02-24 07:03:24.222 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-02-24 07:03:24.222 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-02-24 07:03:24.222 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-02-24 07:03:24.222 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-02-24 07:03:24.223 +05:30 [DBG] Executing controller factory for controller Magic_villa.Controllers.UserController (Magic villa)
+2023-02-24 07:03:24.441 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-24 07:03:24.468 +05:30 [DBG] Executed controller factory for controller Magic_villa.Controllers.UserController (Magic villa)
+2023-02-24 07:03:24.474 +05:30 [DBG] Attempting to bind parameter 'loginRequestDTO' of type 'Magic_villa.DTOs.LoginRequestDTO' ...
+2023-02-24 07:03:24.477 +05:30 [DBG] Attempting to bind parameter 'loginRequestDTO' of type 'Magic_villa.DTOs.LoginRequestDTO' using the name '' in request data ...
+2023-02-24 07:03:24.478 +05:30 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-02-24 07:03:24.478 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-02-24 07:03:24.590 +05:30 [DBG] Done attempting to bind parameter 'loginRequestDTO' of type 'Magic_villa.DTOs.LoginRequestDTO'.
+2023-02-24 07:03:24.590 +05:30 [DBG] Done attempting to bind parameter 'loginRequestDTO' of type 'Magic_villa.DTOs.LoginRequestDTO'.
+2023-02-24 07:03:24.590 +05:30 [DBG] Attempting to validate the bound parameter 'loginRequestDTO' of type 'Magic_villa.DTOs.LoginRequestDTO' ...
+2023-02-24 07:03:24.596 +05:30 [DBG] Done attempting to validate the bound parameter 'loginRequestDTO' of type 'Magic_villa.DTOs.LoginRequestDTO'.
+2023-02-24 07:03:25.331 +05:30 [INF] Entity Framework Core 6.0.14 initialized 'MagicVillaDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-02-24 07:03:25.397 +05:30 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(x => x.UserName == __loginRequestDTO_UserName_0 && x.Password == __loginRequestDTO_Password_1)'
+2023-02-24 07:03:25.599 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Name (string) Required, 1], [Property: LocalUser.Password (string) Required, 2], [Property: LocalUser.Role (string) Required, 3], [Property: LocalUser.UserName (string) Required, 4] }
+        SELECT TOP(1) l.Id, l.Name, l.Password, l.Role, l.UserName
+        FROM LocalUsers AS l
+        WHERE (l.UserName == @__loginRequestDTO_UserName_0) && (l.Password == @__loginRequestDTO_Password_1)), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    Magic_villa.DbContexts.MagicVillaDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-02-24 07:03:25.634 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-24 07:03:25.665 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (28ms).
+2023-02-24 07:03:25.676 +05:30 [DBG] Opening connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 07:03:25.997 +05:30 [DBG] Opened connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 07:03:26.007 +05:30 [DBG] Executing DbCommand [Parameters=[@__loginRequestDTO_UserName_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE ([l].[UserName] = @__loginRequestDTO_UserName_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-02-24 07:03:26.050 +05:30 [INF] Executed DbCommand (47ms) [Parameters=[@__loginRequestDTO_UserName_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE ([l].[UserName] = @__loginRequestDTO_UserName_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-02-24 07:03:26.070 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:03:26.095 +05:30 [DBG] A data reader was disposed.
+2023-02-24 07:03:26.097 +05:30 [DBG] Closing connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 07:03:26.101 +05:30 [DBG] Closed connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 07:03:26.301 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-02-24 07:03:26.303 +05:30 [DBG] No information found on request to perform content negotiation.
+2023-02-24 07:03:26.303 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-02-24 07:03:26.303 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-02-24 07:03:26.304 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-02-24 07:03:26.304 +05:30 [INF] Executing OkObjectResult, writing value of type 'Magic_villa.DTOs.LoginResponseDTO'.
+2023-02-24 07:03:26.340 +05:30 [INF] Executed action Magic_villa.Controllers.UserController.Login (Magic villa) in 2112.5419ms
+2023-02-24 07:03:26.340 +05:30 [INF] Executed endpoint 'Magic_villa.Controllers.UserController.Login (Magic villa)'
+2023-02-24 07:03:26.340 +05:30 [DBG] Connection ID "18230571301796315213" disconnecting.
+2023-02-24 07:03:26.342 +05:30 [DBG] 'MagicVillaDbContext' disposed.
+2023-02-24 07:03:26.344 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44356/api/User/login?api-version=1 application/json-patch+json 50 - 200 296 application/json;+charset=utf-8 2184.2639ms
+2023-02-24 07:03:45.288 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/v1/VillaAPI - -
+2023-02-24 07:03:45.288 +05:30 [DBG] 2 candidate(s) found for the request path '/api/v1/VillaAPI'
+2023-02-24 07:03:45.288 +05:30 [DBG] Endpoint 'Magic_villa.Controllers.VillaAPIController.GetVillas (Magic villa)' with route pattern 'api/v{version:apiVersion}/VillaAPI' is valid for the request path '/api/v1/VillaAPI'
+2023-02-24 07:03:45.288 +05:30 [DBG] Endpoint 'Magic_villa.Controllers.VillaAPIController.GetVilla (Magic villa)' with route pattern 'api/v{version:apiVersion}/VillaAPI' is valid for the request path '/api/v1/VillaAPI'
+2023-02-24 07:03:45.288 +05:30 [DBG] Request matched endpoint 'Magic_villa.Controllers.VillaAPIController.GetVillas (Magic villa)'
+2023-02-24 07:03:45.288 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-24 07:03:45.360 +05:30 [DBG] Successfully validated the token.
+2023-02-24 07:03:45.361 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-02-24 07:03:45.362 +05:30 [DBG] Authorization was successful.
+2023-02-24 07:03:45.362 +05:30 [INF] Executing endpoint 'Magic_villa.Controllers.VillaAPIController.GetVillas (Magic villa)'
+2023-02-24 07:03:45.367 +05:30 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVillas() on controller Magic_villa.Controllers.VillaAPIController (Magic villa).
+2023-02-24 07:03:45.367 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-02-24 07:03:45.367 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-02-24 07:03:45.367 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-02-24 07:03:45.367 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-02-24 07:03:45.367 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-02-24 07:03:45.367 +05:30 [DBG] Executing controller factory for controller Magic_villa.Controllers.VillaAPIController (Magic villa)
+2023-02-24 07:03:45.369 +05:30 [INF] Entity Framework Core 6.0.14 initialized 'MagicVillaDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-02-24 07:03:45.369 +05:30 [DBG] Executed controller factory for controller Magic_villa.Controllers.VillaAPIController (Magic villa)
+2023-02-24 07:03:45.375 +05:30 [DBG] Compiling query expression: 
+'DbSet<Villa>()'
+2023-02-24 07:03:45.380 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Villa>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Amenity (string) Required, 1], [Property: Villa.CreatedDate (DateTime) Required, 2], [Property: Villa.Details (string) Required, 3], [Property: Villa.ImageUrl (string) Required, 4], [Property: Villa.Name (string) Required, 5], [Property: Villa.Occupancy (int) Required, 6], [Property: Villa.Rate (double) Required, 7], [Property: Villa.Sqft (int) Required, 8], [Property: Villa.UpdatedDate (DateTime) Required, 9] }
+        SELECT v.Id, v.Amenity, v.CreatedDate, v.Details, v.ImageUrl, v.Name, v.Occupancy, v.Rate, v.Sqft, v.UpdatedDate
+        FROM Villas AS v), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+    Magic_villa.DbContexts.MagicVillaDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-02-24 07:03:45.391 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-24 07:03:45.391 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-02-24 07:03:45.393 +05:30 [DBG] Opening connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 07:03:45.395 +05:30 [DBG] Opened connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 07:03:45.396 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+2023-02-24 07:03:45.410 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+2023-02-24 07:03:45.421 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:03:45.436 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:03:45.436 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:03:45.436 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:03:45.436 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:03:45.436 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:03:45.438 +05:30 [DBG] A data reader was disposed.
+2023-02-24 07:03:45.439 +05:30 [DBG] Closing connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 07:03:45.439 +05:30 [DBG] Closed connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 07:03:45.441 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-02-24 07:03:45.441 +05:30 [DBG] No information found on request to perform content negotiation.
+2023-02-24 07:03:45.441 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-02-24 07:03:45.441 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-02-24 07:03:45.442 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-02-24 07:03:45.442 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Magic_villa.Models.Villa, Magic villa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-24 07:03:45.453 +05:30 [INF] Executed action Magic_villa.Controllers.VillaAPIController.GetVillas (Magic villa) in 85.9232ms
+2023-02-24 07:03:45.453 +05:30 [INF] Executed endpoint 'Magic_villa.Controllers.VillaAPIController.GetVillas (Magic villa)'
+2023-02-24 07:03:45.454 +05:30 [DBG] 'MagicVillaDbContext' disposed.
+2023-02-24 07:03:45.454 +05:30 [DBG] Connection ID "18230571297501347948" disconnecting.
+2023-02-24 07:03:45.454 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/v1/VillaAPI - - - 200 2281 application/json;+charset=utf-8 166.8236ms
+2023-02-24 07:03:49.855 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/v2/VillaAPI - -
+2023-02-24 07:03:49.855 +05:30 [DBG] 2 candidate(s) found for the request path '/api/v2/VillaAPI'
+2023-02-24 07:03:49.855 +05:30 [DBG] Endpoint 'Magic_villa.Controllers.VillaAPIController.GetVillas (Magic villa)' with route pattern 'api/v{version:apiVersion}/VillaAPI' is valid for the request path '/api/v2/VillaAPI'
+2023-02-24 07:03:49.855 +05:30 [DBG] Endpoint 'Magic_villa.Controllers.VillaAPIController.GetVilla (Magic villa)' with route pattern 'api/v{version:apiVersion}/VillaAPI' is valid for the request path '/api/v2/VillaAPI'
+2023-02-24 07:03:49.855 +05:30 [DBG] Request matched endpoint 'Magic_villa.Controllers.VillaAPIController.GetVilla (Magic villa)'
+2023-02-24 07:03:49.855 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-24 07:03:49.856 +05:30 [DBG] Successfully validated the token.
+2023-02-24 07:03:49.856 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-02-24 07:03:49.856 +05:30 [DBG] Authorization was successful.
+2023-02-24 07:03:49.857 +05:30 [INF] Executing endpoint 'Magic_villa.Controllers.VillaAPIController.GetVilla (Magic villa)'
+2023-02-24 07:03:49.868 +05:30 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVilla() on controller Magic_villa.Controllers.VillaAPIController (Magic villa).
+2023-02-24 07:03:49.868 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-02-24 07:03:49.868 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-02-24 07:03:49.868 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-02-24 07:03:49.868 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-02-24 07:03:49.868 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-02-24 07:03:49.868 +05:30 [DBG] Executing controller factory for controller Magic_villa.Controllers.VillaAPIController (Magic villa)
+2023-02-24 07:03:49.926 +05:30 [INF] Entity Framework Core 6.0.14 initialized 'MagicVillaDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-02-24 07:03:49.926 +05:30 [DBG] Executed controller factory for controller Magic_villa.Controllers.VillaAPIController (Magic villa)
+2023-02-24 07:03:49.927 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-24 07:03:49.927 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-02-24 07:03:49.927 +05:30 [DBG] Opening connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 07:03:49.927 +05:30 [DBG] Opened connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 07:03:49.927 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+2023-02-24 07:03:49.929 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+2023-02-24 07:03:49.929 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:03:49.929 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:03:49.929 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:03:49.929 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:03:49.929 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:03:49.929 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:03:49.929 +05:30 [DBG] A data reader was disposed.
+2023-02-24 07:03:49.929 +05:30 [DBG] Closing connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 07:03:49.929 +05:30 [DBG] Closed connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 07:03:49.930 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-02-24 07:03:49.930 +05:30 [DBG] No information found on request to perform content negotiation.
+2023-02-24 07:03:49.930 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-02-24 07:03:49.930 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-02-24 07:03:49.930 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-02-24 07:03:49.930 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Magic_villa.Models.Villa, Magic villa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-24 07:03:49.931 +05:30 [INF] Executed action Magic_villa.Controllers.VillaAPIController.GetVilla (Magic villa) in 63.3739ms
+2023-02-24 07:03:49.932 +05:30 [INF] Executed endpoint 'Magic_villa.Controllers.VillaAPIController.GetVilla (Magic villa)'
+2023-02-24 07:03:49.932 +05:30 [DBG] 'MagicVillaDbContext' disposed.
+2023-02-24 07:03:49.932 +05:30 [DBG] Connection ID "18230571297501347950" disconnecting.
+2023-02-24 07:03:49.932 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/v2/VillaAPI - - - 200 2281 application/json;+charset=utf-8 77.6198ms
+2023-02-24 07:04:07.101 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-24 07:04:07.199 +05:30 [DBG] Hosting starting
+2023-02-24 07:04:07.210 +05:30 [INF] User profile is available. Using 'C:\Users\alvin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-24 07:04:07.213 +05:30 [DBG] Reading data from file 'C:\Users\alvin\AppData\Local\ASP.NET\DataProtection-Keys\key-fae00347-2a05-4fa7-aea7-e0bc5e239186.xml'.
+2023-02-24 07:04:07.221 +05:30 [DBG] Found key {fae00347-2a05-4fa7-aea7-e0bc5e239186}.
+2023-02-24 07:04:07.229 +05:30 [DBG] Considering key {fae00347-2a05-4fa7-aea7-e0bc5e239186} with expiration date 2023-05-24 23:17:01Z as default key.
+2023-02-24 07:04:07.231 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-24 07:04:07.233 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-02-24 07:04:07.234 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-24 07:04:07.237 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-02-24 07:04:07.239 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-02-24 07:04:07.242 +05:30 [DBG] Using key {fae00347-2a05-4fa7-aea7-e0bc5e239186} as the default key.
+2023-02-24 07:04:07.242 +05:30 [DBG] Key ring with default key {fae00347-2a05-4fa7-aea7-e0bc5e239186} was loaded during application startup.
+2023-02-24 07:04:07.277 +05:30 [DBG] Loaded hosting startup assembly Magic villa
+2023-02-24 07:04:07.277 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-24 07:04:07.278 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-24 07:04:07.278 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-24 07:04:07.278 +05:30 [INF] Hosting environment: Development
+2023-02-24 07:04:07.278 +05:30 [INF] Content root path: C:\Users\alvin\Desktop\webapisolution\Magic villa\
+2023-02-24 07:04:07.278 +05:30 [DBG] Hosting started
+2023-02-24 07:04:07.298 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-02-24 07:04:07.321 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-24 07:04:07.342 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-24 07:04:07.342 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 07:04:07.446 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-02-24 07:04:07.548 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-02-24 07:04:07.550 +05:30 [DBG] Connection ID "17942340921349636097" disconnecting.
+2023-02-24 07:04:07.551 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 256.1333ms
+2023-02-24 07:04:07.552 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-02-24 07:04:07.553 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-02-24 07:04:07.556 +05:30 [DBG] Connection ID "18302628895834243163" disconnecting.
+2023-02-24 07:04:07.556 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 3.2433ms
+2023-02-24 07:04:07.586 +05:30 [DBG] Connection ID "18158513699168452696" disconnecting.
+2023-02-24 07:04:07.586 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.8581ms
+2023-02-24 07:04:07.757 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-02-24 07:04:07.758 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-24 07:04:07.759 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 07:04:07.891 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 133.6419ms
+2023-02-24 07:04:07.891 +05:30 [DBG] Connection ID "18374686494167138444" disconnecting.
+2023-02-24 07:04:33.215 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/v1/VillaAPI - -
+2023-02-24 07:04:33.238 +05:30 [DBG] 2 candidate(s) found for the request path '/api/v1/VillaAPI'
+2023-02-24 07:04:33.243 +05:30 [DBG] Endpoint 'Magic_villa.Controllers.VillaAPIController.GetVillas (Magic villa)' with route pattern 'api/v{version:apiVersion}/VillaAPI' is valid for the request path '/api/v1/VillaAPI'
+2023-02-24 07:04:33.243 +05:30 [DBG] Endpoint 'Magic_villa.Controllers.VillaAPIController.GetVilla (Magic villa)' with route pattern 'api/v{version:apiVersion}/VillaAPI' is valid for the request path '/api/v1/VillaAPI'
+2023-02-24 07:04:33.247 +05:30 [DBG] Request matched endpoint 'Magic_villa.Controllers.VillaAPIController.GetVillas (Magic villa)'
+2023-02-24 07:04:33.248 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-24 07:04:33.275 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-02-24 07:04:33.278 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2023-02-24 07:04:33.281 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-02-24 07:04:33.282 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/v1/VillaAPI - - - 401 - - 66.4393ms
+2023-02-24 07:04:33.282 +05:30 [DBG] Connection ID "18158513699168452698" disconnecting.
+2023-02-24 07:04:48.363 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/v1/VillaAPI - -
+2023-02-24 07:04:48.364 +05:30 [DBG] 2 candidate(s) found for the request path '/api/v1/VillaAPI'
+2023-02-24 07:04:48.364 +05:30 [DBG] Endpoint 'Magic_villa.Controllers.VillaAPIController.GetVillas (Magic villa)' with route pattern 'api/v{version:apiVersion}/VillaAPI' is valid for the request path '/api/v1/VillaAPI'
+2023-02-24 07:04:48.364 +05:30 [DBG] Endpoint 'Magic_villa.Controllers.VillaAPIController.GetVilla (Magic villa)' with route pattern 'api/v{version:apiVersion}/VillaAPI' is valid for the request path '/api/v1/VillaAPI'
+2023-02-24 07:04:48.364 +05:30 [DBG] Request matched endpoint 'Magic_villa.Controllers.VillaAPIController.GetVillas (Magic villa)'
+2023-02-24 07:04:48.364 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-24 07:04:48.504 +05:30 [DBG] Successfully validated the token.
+2023-02-24 07:04:48.505 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-02-24 07:04:48.505 +05:30 [DBG] Authorization was successful.
+2023-02-24 07:04:48.506 +05:30 [INF] Executing endpoint 'Magic_villa.Controllers.VillaAPIController.GetVillas (Magic villa)'
+2023-02-24 07:04:48.520 +05:30 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVillas() on controller Magic_villa.Controllers.VillaAPIController (Magic villa).
+2023-02-24 07:04:48.521 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-02-24 07:04:48.521 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-02-24 07:04:48.521 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-02-24 07:04:48.521 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-02-24 07:04:48.521 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-02-24 07:04:48.521 +05:30 [DBG] Executing controller factory for controller Magic_villa.Controllers.VillaAPIController (Magic villa)
+2023-02-24 07:04:48.612 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-24 07:04:49.588 +05:30 [INF] Entity Framework Core 6.0.14 initialized 'MagicVillaDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-02-24 07:04:49.589 +05:30 [DBG] Executed controller factory for controller Magic_villa.Controllers.VillaAPIController (Magic villa)
+2023-02-24 07:04:49.633 +05:30 [DBG] Compiling query expression: 
+'DbSet<Villa>()'
+2023-02-24 07:04:49.807 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Villa>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Amenity (string) Required, 1], [Property: Villa.CreatedDate (DateTime) Required, 2], [Property: Villa.Details (string) Required, 3], [Property: Villa.ImageUrl (string) Required, 4], [Property: Villa.Name (string) Required, 5], [Property: Villa.Occupancy (int) Required, 6], [Property: Villa.Rate (double) Required, 7], [Property: Villa.Sqft (int) Required, 8], [Property: Villa.UpdatedDate (DateTime) Required, 9] }
+        SELECT v.Id, v.Amenity, v.CreatedDate, v.Details, v.ImageUrl, v.Name, v.Occupancy, v.Rate, v.Sqft, v.UpdatedDate
+        FROM Villas AS v), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+    Magic_villa.DbContexts.MagicVillaDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-02-24 07:04:49.852 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-24 07:04:49.884 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (30ms).
+2023-02-24 07:04:49.891 +05:30 [DBG] Opening connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 07:04:50.194 +05:30 [DBG] Opened connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 07:04:50.206 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+2023-02-24 07:04:50.248 +05:30 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+2023-02-24 07:04:50.281 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:04:50.323 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:04:50.323 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:04:50.323 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:04:50.323 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:04:50.324 +05:30 [DBG] Context 'MagicVillaDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-24 07:04:50.328 +05:30 [DBG] A data reader was disposed.
+2023-02-24 07:04:50.330 +05:30 [DBG] Closing connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 07:04:50.338 +05:30 [DBG] Closed connection to database 'MagicVilla' on server 'localhost\SQLEXPRESS01'.
+2023-02-24 07:04:50.341 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-02-24 07:04:50.342 +05:30 [DBG] No information found on request to perform content negotiation.
+2023-02-24 07:04:50.342 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-02-24 07:04:50.342 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-02-24 07:04:50.343 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-02-24 07:04:50.343 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Magic_villa.Models.Villa, Magic villa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-24 07:04:50.468 +05:30 [INF] Executed action Magic_villa.Controllers.VillaAPIController.GetVillas (Magic villa) in 1940.5493ms
+2023-02-24 07:04:50.469 +05:30 [INF] Executed endpoint 'Magic_villa.Controllers.VillaAPIController.GetVillas (Magic villa)'
+2023-02-24 07:04:50.470 +05:30 [DBG] Connection ID "18302628891539275802" disconnecting.
+2023-02-24 07:04:50.472 +05:30 [DBG] 'MagicVillaDbContext' disposed.
+2023-02-24 07:04:50.473 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/v1/VillaAPI - - - 200 2281 application/json;+charset=utf-8 2110.8631ms
+2023-02-24 07:04:55.468 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/v2/VillaAPI - -
+2023-02-24 07:04:55.468 +05:30 [DBG] 2 candidate(s) found for the request path '/api/v2/VillaAPI'
+2023-02-24 07:04:55.469 +05:30 [DBG] Endpoint 'Magic_villa.Controllers.VillaAPIController.GetVillas (Magic villa)' with route pattern 'api/v{version:apiVersion}/VillaAPI' is valid for the request path '/api/v2/VillaAPI'
+2023-02-24 07:04:55.469 +05:30 [DBG] Endpoint 'Magic_villa.Controllers.VillaAPIController.GetVilla (Magic villa)' with route pattern 'api/v{version:apiVersion}/VillaAPI' is valid for the request path '/api/v2/VillaAPI'
+2023-02-24 07:04:55.469 +05:30 [DBG] Request matched endpoint 'Magic_villa.Controllers.VillaAPIController.GetVilla (Magic villa)'
+2023-02-24 07:04:55.469 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-24 07:04:55.470 +05:30 [DBG] Successfully validated the token.
+2023-02-24 07:04:55.470 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-02-24 07:04:55.471 +05:30 [DBG] Authorization was successful.
+2023-02-24 07:04:55.471 +05:30 [INF] Executing endpoint 'Magic_villa.Controllers.VillaAPIController.GetVilla (Magic villa)'
+2023-02-24 07:04:55.477 +05:30 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVilla() on controller Magic_villa.Controllers.VillaAPIController (Magic villa).
+2023-02-24 07:04:55.477 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-02-24 07:04:55.477 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-02-24 07:04:55.477 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-02-24 07:04:55.477 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-02-24 07:04:55.477 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-02-24 07:04:55.477 +05:30 [DBG] Executing controller factory for controller Magic_villa.Controllers.VillaAPIController (Magic villa)
+2023-02-24 07:04:55.530 +05:30 [INF] Entity Framework Core 6.0.14 initialized 'MagicVillaDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-02-24 07:04:55.532 +05:30 [DBG] Executed controller factory for controller Magic_villa.Controllers.VillaAPIController (Magic villa)
+2023-02-24 07:04:55.537 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-24 07:04:55.537 +05:30 [INF] Executed action Magic_villa.Controllers.VillaAPIController.GetVilla (Magic villa) in 60.0034ms
+2023-02-24 07:04:55.537 +05:30 [INF] Executed endpoint 'Magic_villa.Controllers.VillaAPIController.GetVilla (Magic villa)'
+2023-02-24 07:04:55.537 +05:30 [DBG] 'MagicVillaDbContext' disposed.
+2023-02-24 07:04:55.538 +05:30 [DBG] Connection ID "18158513699168452700" disconnecting.
+2023-02-24 07:04:55.538 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/v2/VillaAPI - - - 200 - - 69.5789ms
+2023-02-24 07:36:44.671 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-24 07:36:44.774 +05:30 [DBG] Hosting starting
+2023-02-24 07:36:44.786 +05:30 [INF] User profile is available. Using 'C:\Users\alvin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-24 07:36:44.789 +05:30 [DBG] Reading data from file 'C:\Users\alvin\AppData\Local\ASP.NET\DataProtection-Keys\key-fae00347-2a05-4fa7-aea7-e0bc5e239186.xml'.
+2023-02-24 07:36:44.798 +05:30 [DBG] Found key {fae00347-2a05-4fa7-aea7-e0bc5e239186}.
+2023-02-24 07:36:44.806 +05:30 [DBG] Considering key {fae00347-2a05-4fa7-aea7-e0bc5e239186} with expiration date 2023-05-24 23:17:01Z as default key.
+2023-02-24 07:36:44.808 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-24 07:36:44.810 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-02-24 07:36:44.811 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-24 07:36:44.814 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-02-24 07:36:44.816 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-02-24 07:36:44.819 +05:30 [DBG] Using key {fae00347-2a05-4fa7-aea7-e0bc5e239186} as the default key.
+2023-02-24 07:36:44.819 +05:30 [DBG] Key ring with default key {fae00347-2a05-4fa7-aea7-e0bc5e239186} was loaded during application startup.
+2023-02-24 07:36:44.859 +05:30 [DBG] Loaded hosting startup assembly Magic villa
+2023-02-24 07:36:44.859 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-24 07:36:44.859 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-24 07:36:44.859 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-24 07:36:44.860 +05:30 [INF] Hosting environment: Development
+2023-02-24 07:36:44.860 +05:30 [INF] Content root path: C:\Users\alvin\Desktop\webapisolution\Magic villa\
+2023-02-24 07:36:44.860 +05:30 [DBG] Hosting started
+2023-02-24 07:36:44.882 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - -
+2023-02-24 07:36:44.909 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-24 07:36:44.941 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-24 07:36:44.942 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 07:36:45.031 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-02-24 07:36:45.137 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-02-24 07:36:45.143 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - - - 200 - text/html;charset=utf-8 264.1313ms
+2023-02-24 07:36:45.157 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-02-24 07:36:45.157 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-02-24 07:36:45.161 +05:30 [DBG] Connection ID "18086456109425492101" disconnecting.
+2023-02-24 07:36:45.161 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 3.2660ms
+2023-02-24 07:36:45.194 +05:30 [DBG] Connection ID "18230571297501347953" disconnecting.
+2023-02-24 07:36:45.194 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.8053ms
+2023-02-24 07:36:45.374 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-02-24 07:36:45.376 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-24 07:36:45.376 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 07:36:45.552 +05:30 [DBG] Connection ID "17942340929939570722" disconnecting.
+2023-02-24 07:36:45.555 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 179.7914ms
+2023-02-24 07:37:01.771 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v2/swagger.json - -
+2023-02-24 07:37:01.771 +05:30 [DBG] No candidates found for the request path '/swagger/v2/swagger.json'
+2023-02-24 07:37:01.776 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 07:37:01.787 +05:30 [DBG] Connection ID "18014398511092596770" disconnecting.
+2023-02-24 07:37:01.787 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v2/swagger.json - - - 404 - - 16.0308ms
+2023-02-24 07:37:27.767 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-24 07:37:27.859 +05:30 [DBG] Hosting starting
+2023-02-24 07:37:27.869 +05:30 [INF] User profile is available. Using 'C:\Users\alvin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-24 07:37:27.871 +05:30 [DBG] Reading data from file 'C:\Users\alvin\AppData\Local\ASP.NET\DataProtection-Keys\key-fae00347-2a05-4fa7-aea7-e0bc5e239186.xml'.
+2023-02-24 07:37:27.880 +05:30 [DBG] Found key {fae00347-2a05-4fa7-aea7-e0bc5e239186}.
+2023-02-24 07:37:27.888 +05:30 [DBG] Considering key {fae00347-2a05-4fa7-aea7-e0bc5e239186} with expiration date 2023-05-24 23:17:01Z as default key.
+2023-02-24 07:37:27.889 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-24 07:37:27.891 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-02-24 07:37:27.893 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-24 07:37:27.896 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-02-24 07:37:27.897 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-02-24 07:37:27.899 +05:30 [DBG] Using key {fae00347-2a05-4fa7-aea7-e0bc5e239186} as the default key.
+2023-02-24 07:37:27.900 +05:30 [DBG] Key ring with default key {fae00347-2a05-4fa7-aea7-e0bc5e239186} was loaded during application startup.
+2023-02-24 07:37:27.934 +05:30 [DBG] Loaded hosting startup assembly Magic villa
+2023-02-24 07:37:27.934 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-24 07:37:27.934 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-24 07:37:27.934 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-24 07:37:27.934 +05:30 [INF] Hosting environment: Development
+2023-02-24 07:37:27.935 +05:30 [INF] Content root path: C:\Users\alvin\Desktop\webapisolution\Magic villa\
+2023-02-24 07:37:27.935 +05:30 [DBG] Hosting started
+2023-02-24 07:37:27.953 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html?urls.primaryName=Magic_VillaV2 - -
+2023-02-24 07:37:27.976 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-24 07:37:27.998 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-24 07:37:27.998 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 07:37:28.081 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-02-24 07:37:28.196 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-02-24 07:37:28.198 +05:30 [DBG] Connection ID "18086456113720459334" disconnecting.
+2023-02-24 07:37:28.199 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html?urls.primaryName=Magic_VillaV2 - - - 200 - text/html;charset=utf-8 248.8658ms
+2023-02-24 07:37:28.207 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-02-24 07:37:28.207 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-02-24 07:37:28.212 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.5335ms
+2023-02-24 07:37:28.245 +05:30 [DBG] Connection ID "18086456113720459336" disconnecting.
+2023-02-24 07:37:28.246 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.4734ms
+2023-02-24 07:37:28.360 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-02-24 07:37:28.361 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-24 07:37:28.361 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 07:37:28.507 +05:30 [DBG] Connection ID "18086456113720459338" disconnecting.
+2023-02-24 07:37:28.507 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.0566ms
+2023-02-24 07:37:48.226 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v2/swagger.json - -
+2023-02-24 07:37:48.227 +05:30 [DBG] No candidates found for the request path '/swagger/v2/swagger.json'
+2023-02-24 07:37:48.228 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 07:37:48.238 +05:30 [DBG] Connection ID "18086456109425492105" disconnecting.
+2023-02-24 07:37:48.237 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v2/swagger.json - - - 200 - application/json;charset=utf-8 10.9588ms
+2023-02-24 07:37:56.705 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-02-24 07:37:56.705 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-24 07:37:56.705 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 07:37:56.716 +05:30 [DBG] Connection ID "18086456109425492107" disconnecting.
+2023-02-24 07:37:56.716 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 11.4419ms
+2023-02-24 07:44:56.145 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-24 07:44:56.250 +05:30 [DBG] Hosting starting
+2023-02-24 07:44:56.261 +05:30 [INF] User profile is available. Using 'C:\Users\alvin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-24 07:44:56.264 +05:30 [DBG] Reading data from file 'C:\Users\alvin\AppData\Local\ASP.NET\DataProtection-Keys\key-fae00347-2a05-4fa7-aea7-e0bc5e239186.xml'.
+2023-02-24 07:44:56.274 +05:30 [DBG] Found key {fae00347-2a05-4fa7-aea7-e0bc5e239186}.
+2023-02-24 07:44:56.282 +05:30 [DBG] Considering key {fae00347-2a05-4fa7-aea7-e0bc5e239186} with expiration date 2023-05-24 23:17:01Z as default key.
+2023-02-24 07:44:56.283 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-24 07:44:56.286 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-02-24 07:44:56.287 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-24 07:44:56.290 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-02-24 07:44:56.292 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-02-24 07:44:56.295 +05:30 [DBG] Using key {fae00347-2a05-4fa7-aea7-e0bc5e239186} as the default key.
+2023-02-24 07:44:56.295 +05:30 [DBG] Key ring with default key {fae00347-2a05-4fa7-aea7-e0bc5e239186} was loaded during application startup.
+2023-02-24 07:44:56.330 +05:30 [DBG] Loaded hosting startup assembly Magic villa
+2023-02-24 07:44:56.330 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-24 07:44:56.330 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-24 07:44:56.331 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-24 07:44:56.331 +05:30 [INF] Hosting environment: Development
+2023-02-24 07:44:56.331 +05:30 [INF] Content root path: C:\Users\alvin\Desktop\webapisolution\Magic villa\
+2023-02-24 07:44:56.331 +05:30 [DBG] Hosting started
+2023-02-24 07:44:56.351 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html?urls.primaryName=V1 - -
+2023-02-24 07:44:56.379 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-24 07:44:56.408 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-24 07:44:56.408 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 07:44:56.511 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-02-24 07:44:56.598 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-02-24 07:44:56.601 +05:30 [DBG] Connection ID "18086456118015426620" disconnecting.
+2023-02-24 07:44:56.602 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html?urls.primaryName=V1 - - - 200 - text/html;charset=utf-8 253.7531ms
+2023-02-24 07:44:56.607 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-02-24 07:44:56.607 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-02-24 07:44:56.610 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 2.9276ms
+2023-02-24 07:44:56.641 +05:30 [DBG] Connection ID "18086456118015426622" disconnecting.
+2023-02-24 07:44:56.641 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.2372ms
+2023-02-24 07:44:56.842 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-02-24 07:44:56.843 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-24 07:44:56.843 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 07:44:56.986 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 143.5513ms
+2023-02-24 07:45:28.646 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html?urls.primaryName=V1 - -
+2023-02-24 07:45:28.647 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-24 07:45:28.647 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 07:45:28.647 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-02-24 07:45:28.655 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-02-24 07:45:28.656 +05:30 [DBG] Connection ID "18158513699168452711" disconnecting.
+2023-02-24 07:45:28.656 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html?urls.primaryName=V1 - - - 200 - text/html;charset=utf-8 9.3177ms
+2023-02-24 07:45:28.681 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - -
+2023-02-24 07:45:28.682 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - -
+2023-02-24 07:45:28.683 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 1.3845ms
+2023-02-24 07:45:28.714 +05:30 [DBG] Connection ID "18374686481282236522" disconnecting.
+2023-02-24 07:45:28.715 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.9846ms
+2023-02-24 07:45:28.817 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - -
+2023-02-24 07:45:28.818 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-24 07:45:28.818 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 07:45:28.825 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 7.8067ms
+2023-02-24 07:45:33.968 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v2/swagger.json - -
+2023-02-24 07:45:33.968 +05:30 [DBG] No candidates found for the request path '/swagger/v2/swagger.json'
+2023-02-24 07:45:33.968 +05:30 [DBG] Request did not match any endpoints
+2023-02-24 07:45:33.975 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v2/swagger.json - - - 200 - application/json;charset=utf-8 6.5913ms

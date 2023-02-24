@@ -1,0 +1,100 @@
+nuget packages
+	Microsoft.AspNetCore.Mvc.Versioning
+	Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer
+
+
+adding versioning to api services
+	in program.cs
+		builder.Services.AddApiVersioning(options => {
+			options.AssumeDefaultVersionWhenUnspecified = true;
+			options.DefaultApiVersion = new ApiVersion(1, 0);
+			options.ReportApiVersions = true;
+		});
+
+
+
+api  version attribute
+	in controller
+		[ApiVersion("1.0")]
+		[ApiVersion("2.0")]
+
+
+
+
+
+
+multiple version in same controller
+	in the actionmethod
+		[MapToApiVersion("1.0")]
+
+
+
+
+route changes
+	in controller
+	[Route("api/v{version:apiVersion}/[controller]")]
+	in program.cs
+	builder.Services.AddVersionedApiExplorer(
+		option =>
+		{
+			option.GroupNameFormat = "'v'VVV";
+			options.SubstituteApiVersionInUrl = true;
+		}
+		);
+
+	
+
+add route changes in all controllers
+
+
+
+
+
+
+swagger document for v1
+		app.UseSwaggerUI(
+			options => {
+				options.SwaggerEndpoint("/swagger/v1/swagger.json", "V1");
+				options.SwaggerEndpoint("/swagger/v2/swagger.json", "V2");
+			});
+		}
+
+
+		and swagger doc changes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+cleaner approach
+	organizing by creting folder v1,v2,  etc and having controllers
+		v1
+			HomeV1Controller
+		v2
+			HomeV2Controller
+
+
+
+
+
+
+
+
+[ApiVersionNeutral]           ->not dependencton any version
+[ApiVersion("1.0",Deprecated =true)]

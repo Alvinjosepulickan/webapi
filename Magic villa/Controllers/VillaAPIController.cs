@@ -14,9 +14,11 @@ using System.Net;
 
 namespace Magic_villa.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
     [Authorize(Roles ="Admin")]
+    [ApiVersion("1.0",Deprecated =true)]
+    [ApiVersion("2.0")]
     public class VillaAPIController : ControllerBase
     {
         private readonly ILogger<VillaAPIController> _logger;
@@ -31,6 +33,7 @@ namespace Magic_villa.Controllers
             _mapper = mapper;
         }
         [HttpGet]
+        [MapToApiVersion("1.0")]
         public async Task<IActionResult> GetVillas()
         {
             //_logger.LogError(StaticClass.villa.ToString());
@@ -42,6 +45,20 @@ namespace Magic_villa.Controllers
             //};
             //return Ok(apiResponse);
             return Ok(await _magicVillaRepository.GetAll());
+        }
+        [MapToApiVersion("2.0")]
+        [HttpGet]
+        public async Task<IActionResult> GetVilla()
+        {
+            //_logger.LogError(StaticClass.villa.ToString());
+            //apiResponse=new APIResponse()
+            //{
+            //    IsSuccess=true,
+            //    Result= await _magicVillaRepository.GetAll(),
+            //    StatusCode=HttpStatusCode.OK
+            //};
+            //return Ok(apiResponse);
+            return Ok();
         }
         [HttpGet]
         [Route("{id}")]
