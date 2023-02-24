@@ -4,6 +4,7 @@ using Magic_villa.DbContexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Magic_villa.Migrations
 {
     [DbContext(typeof(MagicVillaDbContext))]
-    partial class MagicVillaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230223210133_addlocalusertabletodb")]
+    partial class addlocalusertabletodb
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

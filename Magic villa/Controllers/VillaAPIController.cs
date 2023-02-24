@@ -3,6 +3,7 @@ using Magic_villa.DbContexts;
 using Magic_villa.DTOs;
 using Magic_villa.Models;
 using Magic_villa.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
@@ -15,6 +16,7 @@ namespace Magic_villa.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles ="Admin")]
     public class VillaAPIController : ControllerBase
     {
         private readonly ILogger<VillaAPIController> _logger;
