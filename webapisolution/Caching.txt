@@ -1,0 +1,39 @@
+caching request
+	in program.cs
+		builder.Services.AddResponseCaching();
+
+
+
+	in action method 
+		
+        [ResponseCache(Duration =30)]
+
+caching profile-- common logic for caching
+	in program.cs
+
+
+
+	builder.Services.AddControllers(
+    //option => option.ReturnHttpNotAcceptable = true
+    option => {
+        option.CacheProfiles.Add("Default30", new CacheProfile()
+        {
+            Duration = 30
+        });
+    }
+    )
+    .AddNewtonsoftJson()
+    .AddXmlDataContractSerializerFormatters();
+
+
+
+pagination
+    skip(pageSize*(PageNumber-1)).Take(PageSize)
+
+
+pagination in response header
+    create model for pagination
+        PageNumber and PageSize 
+
+    in action method
+        Response.Headers.Add("X-Pagination",JsonSerializer.Serialize(paginationObj))

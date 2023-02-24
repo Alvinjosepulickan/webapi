@@ -34,6 +34,7 @@ namespace Magic_villa.Controllers
         }
         [HttpGet]
         [MapToApiVersion("1.0")]
+        [ResponseCache(Duration =30)]
         public async Task<IActionResult> GetVillas()
         {
             //_logger.LogError(StaticClass.villa.ToString());

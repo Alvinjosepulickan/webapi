@@ -52,8 +52,15 @@ builder.Services.AddScoped<IVillaNumberRepository, VillaNumberRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Host.UseSerilog();
 builder.Services.AddDbContext<MagicVillaDbContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("MagicVilla")));
+builder.Services.AddResponseCaching();
 builder.Services.AddControllers(
-    option => option.ReturnHttpNotAcceptable = true
+    //option => option.ReturnHttpNotAcceptable = true
+    option => {
+        option.CacheProfiles.Add("Default30", new CacheProfile()
+        {
+            Duration = 30
+        });
+    }
     )
     .AddNewtonsoftJson()
     .AddXmlDataContractSerializerFormatters();
