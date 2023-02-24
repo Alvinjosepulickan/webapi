@@ -1,0 +1,2 @@
+Db setup
+	create db in azure   -> SQL database
